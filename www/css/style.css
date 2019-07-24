@@ -27,16 +27,16 @@ body {
     border-radius: 5px;
 }
 .button:hover {
-	background-color: lighter(#ff9d00, 5);
+	background-color: lighter(#fd9c28, 5);
     cursor: pointer;
 }
 .button-o {
     background-color: transparent;
     color: #373737;
-    border: 1px solid rgba(#373737. 0.5);
+    border: 1px solid rgba(55, 55, 55, 0.5);
 }
 .button-o:hover {
-    background-color: lighter(#ff9d00, 5);
+    background-color: lighter(#fd9c28, 5);
     color: #373737;
     border: 1px solid transparent;
     cursor: pointer;
@@ -273,9 +273,9 @@ span {
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 29px;
 }
-.section-title::after {
+.section-title::after { 
     content: '';
     margin-top: 12px;
     display: block;
@@ -292,7 +292,7 @@ span {
 .products-block__img {
     margin-bottom: 19px;
 }
-.products-block__title {
+.products-block__title { 
     margin-bottom: 28px;
     font-size: 20px;
     font-weight: 700;
