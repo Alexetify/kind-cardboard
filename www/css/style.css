@@ -338,3 +338,49 @@ span {
 .offer-form__button {
     margin-bottom: 9px;
 }
+.manufacture {
+    padding-top: 87px;
+    padding-bottom: 90px;
+}
+.manufacture-slider {
+    position: relative;
+    z-index: 2;
+}
+.manufacture-slider__top {
+    margin-bottom: 13px;
+    height: 377px;
+    overflow-y: hidden;
+}
+.manufacture-slider__bottom {
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 78px;
+    overflow-y: hidden;
+}
+.img_mn {
+    margin: o 6px;
+}
+.manufacture-text {
+    max-width: 379px;
+}
+.manufacture-text__title {
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 19px;
+    margin-bottom: 28px; 
+    margin-left: -10%;
+    padding-left: 10%;
+    line-height: 22px;
+    width: 110%;
+    z-index: -1;
+    color: #ffffff;
+    background-color: #fd9c28;
+    font-size: 28px;
+    font-weight: 300; 
+}
+.manufacture-text__descr {
+    font-size: 16px;
+    font-weight: 300;
+    text-align: justify;
+}
