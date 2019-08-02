@@ -5,6 +5,15 @@ body {
 .header {
 	padding: 15px 0;
 }
+.header-wrap {
+    display: flex;
+    width: 100%;
+    background-color: #373737;
+    justify-content: center;
+}
+.nav {
+    color: #fff;
+}
 .header-contacts {
 	display: flex;
     justify-content: flex-end;
@@ -408,4 +417,19 @@ span {
 }
 .contacts-block__text {
     margin-bottom: 30px;
+}
+.footer {
+    display: flex;
+    background-color: #1b1b1b;
+    text-align: center;
+    
+}
+.footer-text {
+    opacity: 0.5;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 17px;
+    padding-top: 36px;
+    padding-bottom: 39px;
 }
