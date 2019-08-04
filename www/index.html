@@ -16,20 +16,23 @@
 
 <body>
   <section class="menu-nav">
-      <div class="header-wrap">
-        <div class="nav">
-          <a href="#main">О компании</a>
-          <a href="#features">Преимущества</a>
-          <a href="#products">Продукция</a>
-          <a href="#offer">Индивидуальное предложение</a>
-          <a href="#manufacture">Производство</a>
-          <a href="#clients">Наши клиенты</a>
-          <a href="#review">Отзывы</a>
-          <a href="#contacts">Контакты</a>
+      <div class="container">
+        <div class="header-wrap">
+          <div class="nav">
+            <a href="#main">О компании</a>
+            <a href="#features">Преимущества</a>
+            <a href="#products">Продукция</a>
+            <a href="#offer">Индивидуальное предложение</a>
+            <a href="#manufacture">Производство</a>
+            <a href="#clients">Наши клиенты</a>
+            <a href="#review">Отзывы</a>
+            <a href="#contacts">Контакты</a>
+          </div>
+          <!-- /.nav -->
         </div>
-        <!-- /.nav -->
+        <!-- /.header-wrap -->
       </div>
-      <!-- /.header-wrap -->
+      <!-- /.container -->
   </section>
   <!-- /.menu-nav -->
   <header class="header">
@@ -115,7 +118,7 @@
             <label for="phone" class="popup-form__label">
               Введите ваш номер телефона:
             </label>
-            <input type="tel" class="popup-form__input" name="phone" required>
+            <input type="tel" class="popup-form__input" name="phone" required placeholder="+38 (ХХХ) ХХХ-ХХ-ХХ">
             <button class="button popup-form__btn">
               Оставить заявку!
             </button>
@@ -586,6 +589,8 @@
                       slidesToScroll: 1,
                       asNavFor: '.slider-for',
                       arrows: true,
+                      prevArrow: '<button class="button-arrow button-prev"></button>',
+                      nextArrow: '<button class="button-arrow button-next"></button>',
                       centerMode: true,
                       focusOnSelect: true
                     });
@@ -595,17 +600,22 @@
                           slidesToScroll: 1,
                           arrows: true,
                           focusOnSelect: true,
+                          prevArrow: '<button class="btn-arrow btn-prev"></button>',
+                          nextArrow: '<button class="btn-arrow btn-next"></button>',
                           responsive: [
                           {
-                          breakpoint: 992,
+                          breakpoint: 1020,
                           settings: {
                           slidesToShow: 2,
+                          slidesToScroll: 1,
+                          infinite: true
                           }
                           },
                           {
                           breakpoint: 768,
                           settings: {
                           slidesToShow: 1,
+                          slidesToScroll: 1
                           }
                           },
                           ]
