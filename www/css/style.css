@@ -128,7 +128,6 @@ body {
 .form {
     display: flex;
     margin-bottom: 12px;
-    /*justify-content: space-between;*/ 
 }
 .form-title {
     margin-bottom: 20px;
@@ -148,7 +147,6 @@ body {
     border: none;
     vertical-align: middle;
     width: : 100%;
-    max-width: 365px;
 }
 .button_big {
     padding-top: 19px;
