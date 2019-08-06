@@ -317,8 +317,9 @@ span {
     text-align: center; 
 }
 .products-block__img {
-    margin-bottom: 19px;
+    margin-bottom: 10px;
 }
+
 .products-block__title { 
     margin-bottom: 28px;
     font-size: 20px;
