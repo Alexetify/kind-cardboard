@@ -447,7 +447,6 @@ span {
     padding-bottom: 48px;
 }
 .wrapper {
-    display: flex;
     text-align: center;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 5px;
@@ -466,6 +465,78 @@ span {
 }
 .wrapper-img:hover {
   filter: grayscale(0%);
+}
+.img__cl-1 {
+    background: url(../img/cl-1.png) center center no-repeat;
+}
+.img__cl-1:hover {
+    filter: grayscale(0%);
+}
+.img__cl-2 {
+    background: url(../img/cl-2.png) center center no-repeat;
+}
+.img__cl-2:hover {
+    filter: grayscale(0%);
+}
+.img__cl-3 {
+    background: url(../img/cl-3.png) center center no-repeat;
+}
+.img__cl-3:hover {
+    filter: grayscale(0%);
+}
+.img__cl-4 {
+    background: url(../img/cl-4.png) center center no-repeat;
+}
+.img__cl-4:hover {
+    filter: grayscale(0%);
+}
+.img__cl-5 {
+    background: url(../img/cl-5.png) center center no-repeat;
+}
+.img__cl-5:hover {
+    filter: grayscale(0%);
+}
+.img__cl-6 {
+    background: url(../img/cl-6.png) center center no-repeat;
+}
+.img__cl-6:hover {
+    filter: grayscale(0%);
+}
+.img__cl-7 {
+    background: url(../img/cl-7.png) center center no-repeat;
+}
+.img__cl-7:hover {
+    filter: grayscale(0%);
+}
+.img__cl-8 {
+    background: url(../img/cl-8.png) center center no-repeat;
+}
+.img__cl-8:hover {
+    filter: grayscale(0%);
+}
+.img__cl-9 {
+    background: url(../img/cl-9.png) center center no-repeat;
+}
+.img__cl-9:hover {
+    filter: grayscale(0%);
+}
+.img__cl-10 {
+    background: url(../img/cl-10.png) center center no-repeat;
+}
+.img__cl-10:hover {
+    filter: grayscale(0%);
+}
+.img__cl-11 {
+    background: url(../img/cl-11.png) center center no-repeat;
+}
+.img__cl-11:hover {
+    filter: grayscale(0%);
+}
+.img__cl-12 {
+    background: url(../img/cl-12.png) center center no-repeat;
+}
+.img__cl-12:hover {
+    filter: grayscale(0%);
 }
 .contacts {
     padding-top: 73px;
